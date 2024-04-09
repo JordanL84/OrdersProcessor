@@ -1,0 +1,4 @@
+----- Order details for client with Id: 0-----
+Order Total: $0.00
+***** Summary of all orders *****
+Summary Grand Total: $0.00

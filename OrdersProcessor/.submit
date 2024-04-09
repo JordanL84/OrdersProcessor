@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC132
+#  Project Project 8: Order Processor
+
+courseName=CMSC132
+semester=202301
+projectNumber=Project 8
+courseKey=f603c6593d5e5b43
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/spring2023
+submitURL=https://submit.cs.umd.edu:443/spring2023/eclipse/SubmitProjectViaEclipse

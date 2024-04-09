@@ -1,0 +1,14 @@
+| # of Orders | Time (Single Thread) | Time (Multiple Threads) |
+|_____________|______________________|_________________________|
+|     15      |     11312 msec       |       11159 msec        |
+|_____________|______________________|_________________________|
+|     15      |     58273 msec       |       43228 msec        |
+|_____________|______________________|_________________________|
+|     30      |     18176 msec       |       10605 msec        |
+|_____________|______________________|_________________________|
+|     30      |     115903 msec      |       77717 msec        |
+|_____________|______________________|_________________________|
+
+The time it takes to process data is always faster using multiple threads than 
+a single thread. The difference in time increases when the number of orders or 
+items per order increase (more data to process).			
